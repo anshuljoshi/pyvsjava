@@ -3,20 +3,13 @@
 ## Java
 
 #### Result
-> Result 4999999950000000
-> Time taken 0.034625744
-
-
-## Python
-
-#### Result
-> Result 4999999950000000
-> Time taken 4.5471470356
+> Result 499999999500000000
+> Time taken 0.322150095
 
 
 ## Numba (Python)
-> Result 4999999950000000
-> Time taken 0.0726609230042
+> Result 499999999500000000
+> Time taken 0.0574541091919
 
 
 ## Conclusion : Python with Numba is crazy

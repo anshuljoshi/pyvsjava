@@ -2,7 +2,7 @@ public class NumbaVSJava {
   public static void main(String[] args) {
     long temp = 0;
     double startTime = System.nanoTime(); 
-    for (long i = 0; i < 100000000; i++) {
+    for (long i = 0; i < 1000000000; i++) {
       temp = temp + i;
     }
     double estimatedTime = System.nanoTime() - startTime;
@@ -14,5 +14,5 @@ public class NumbaVSJava {
 
 
 // Result
-// 4999999950000000
-// 0.034625744
+// 499999999500000000
+// 0.322150095
